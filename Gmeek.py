@@ -491,7 +491,7 @@ for i in blog.blogBase["postListJson"]:
     del blog.blogBase["postListJson"][i]["script"]
     del blog.blogBase["postListJson"][i]["style"]
     del blog.blogBase["postListJson"][i]["top"]
-    del blog.blogBase["postListJson"][i]["ogImage"]
+    # del blog.blogBase["postListJson"][i]["ogImage"]
 
     if 'head' in blog.blogBase["postListJson"][i]:
         del blog.blogBase["postListJson"][i]["head"]
